@@ -1,0 +1,201 @@
+/* tipo de letra */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Vollkorn:ital,wght@0,700;1,400;1,700&display=swap');
+/* caracteristicas generales */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #005f83;
+    font-family: 'Nunito', sans-serif;
+    color: ff;
+}
+/*  
+paleta de colores
+#005f83 #ffffff #e6eff3 #b3cfda #669fb5 
+*/
+body{
+    font-family: 'Nunito', sans-serif;
+}
+/* cabecera y menu */
+.wrapper{
+    width: 100vw;
+    /* height: auto; */
+    height: 50vw;
+    background-color: #005f83;
+    color: #ffffff;
+}
+/* logo */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+.brand{
+    margin-top: -6.5px;
+}
+.menu{
+    display: flex;
+    width: 35%;
+    justify-content: space-around;
+}
+.menu li{
+    list-style: none;
+}
+.menu a{
+    color:#e6eff3;
+    text-decoration: none;
+    padding: 10px 6px;
+}
+.menu .active{
+    color: black;
+}
+.menu a:hover{
+    color: deeppink;
+    transition: ease-in 0.5s;
+}
+.text{
+    color: e6eff3;
+}
+.main{
+    margin: 0 auto;
+    width: 80vw; 
+    height: 40vw;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+h1{
+    font-size: 3em;
+}
+.download-cv{
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #005f83;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgb(102, 231, 200, .69);
+}
+.download-cv:hover {
+    background-color: deeppink;
+    color: #ffffff;
+    transition: ease-in 0.5s;
+    box-shadow: none;
+}
+.main img{
+    width: 350px;
+    margin: auto;
+    z-index: 1;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    flex-wrap: wrap;
+    /* background-color: #669fb5; */
+}
+.footer-content{
+    color: #ffffff;
+    padding: 10px;
+}
+.redes-sociales{
+    display: flex;
+    justify-content: space-evenly;
+    width: 9em;
+}
+.container-about{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	/* align-items: center; */
+	align-content: center;
+}
+.about{
+    display: grid;
+    width: 80%;
+    align-items: center;
+    /* grid-template-columns: repeat(1,1fr); */
+
+}
+.education{
+	display: grid;
+    grid-template-columns: repeat(4, 1fr) auto;
+    /* width: 80%; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+	align-content: center;
+}
+.education .title_edu{
+    text-align: left;
+}
+h2{
+    margin: 30px 0;
+}
+.experience li{
+    list-style: none;
+}
+.experience{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding: 2em;
+}
+.hobbies li{
+    list-style: none;
+}
+.hobbies{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding: 2em;
+}
+.container-contact{
+    padding: 3em;
+    margin: 0 auto;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+}
+.form input{
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+}
+.form textarea{
+    height: 150px;
+    background: none;
+    color: #fff;
+    padding: 15px;
+    border-bottom: 1px solid #fff;
+}
+.btn-submit{
+    padding: 10px 20px;
+    margin: 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+/*  
+Paleta de colores
+#005f83 #ffffff #e6eff3 #b3cfda #669fb5 
+*/
